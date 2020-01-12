@@ -48,8 +48,8 @@ TIM_HandleTypeDef htim4;
 
 /* USER CODE BEGIN PV */
 uint8_t TLE_registers[16];
-uint16_t X_value;
-uint16_t Y_value;
+int16_t X_value;
+int16_t Y_value;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
